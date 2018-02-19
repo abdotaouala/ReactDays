@@ -44,7 +44,7 @@ class App extends Component {
     }
     getMessage() {
         return (
-            <h1>number of days : {this.state.days}</h1>
+            <h1>number of days : {Math.abs(this.state.days)}</h1>
         );
     }
     parseDate(date1, date2) {
